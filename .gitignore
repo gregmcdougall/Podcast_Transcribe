@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Runtime state and generated output — not source, don't commit
+processed_episodes.json
+audio_tmp/
+transcripts/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
