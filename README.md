@@ -20,8 +20,7 @@ schedule, etc.) for genuinely automatic behavior.
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env
-# edit .env and add your Deepgram API key
+export DEEPGRAM_API_KEY="your_key_here"
 ```
 
 ## Configure shows
